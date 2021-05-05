@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+font-family: 'Dancing Script', cursive;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+
+
+}
+
+#welcome {
+    position: absolute;
+
+    height: 800px;
+    color: darkslateblue;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(blue 0%, purple 100%);
+    display: table;
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+
+}
+
+#h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: fantasy;
+    font-weight: 400;
+
+
+
+
+
+}
+
+#name {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: fantasy;
+    font-weight: 400;
+
+
+
+}
+
+#h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: inherit;
+    font-family: fantasy;
+
+
+
+}
+#bio{
+    font-size: 30px;
+    font-weight:400;
+    line-height: inherit;
+    text-align: center;
+    padding: 50px;
+    background-color: darkmagenta;
+    
+}
+.line{
+    height: 6px;
+    background-color: fuchsia;
+    width: 70px;
+    margin:8px auto;
+    
+    
+}
+p{
+    font-size: 30px;
+        font-weight:400;
+    line-height: 1.3;
+    margin: 25px auto;
+   
+    max-width: 450px;
+    
+    
+    
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align-last: center;
+    vertical-align: middle;
+    
+    
+}
+.menu{
+   font-family: fantasy;
+  list-style: none;
+    right: 40px;
+    top: 15px;
+    position: fixed;
+    z-index: 99;
+    
+ 
+
+    
+    
+}
+.links:hover{
+  background-color: darkorchid;
+    cursor: pointer;
+    
+    
+}
+.links{
+    float: left;
+    padding: 12px;
+    font-family: fantasy;
+    
+    
+}
+
+html {
+    
+    scroll-behavior: smooth;
+    
+    
+}
+a{
+    
+    text-decoration: line-through;
+    
+    
+}
+.article:hover{
+    color:darksalmon;
+    
+}
